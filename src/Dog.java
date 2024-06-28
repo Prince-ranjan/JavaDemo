@@ -1,4 +1,4 @@
-public class Dog {
+public class Dog extends Animal{
 
     private String breed = "Husky";
     private String color = "Black-Brown";
@@ -69,5 +69,16 @@ public class Dog {
 
     public void run() {
         System.out.println("Run doggy Run ... !");
+    }
+
+
+    @Override
+    public void makeSound() {
+        System.out.println("Woof Woof ....!");
+    }
+
+    @Override
+    public void race() {
+        System.out.println("Dog is racing...");
     }
 }
