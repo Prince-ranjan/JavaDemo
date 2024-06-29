@@ -1,4 +1,5 @@
 public abstract class Animal {
+public String tail= " Animal Tail";
 
     public void eat() {
         System.out.println("Animal is eating.....");

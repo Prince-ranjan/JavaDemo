@@ -19,6 +19,8 @@ public class Dog extends Animal{
         this.isMale = isMale;
     }
 
+
+
     public Dog(String breed, int age) {
         this.breed = breed;
         this.age = age;
