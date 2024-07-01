@@ -1,8 +1,15 @@
 public class ifDemo {
     public static void main(String[] args) {
+
         int[] arr1 = {100, 70, 15, 85, 56, 97, 30, 25};
+ //                     0                           7
 
+        int[] arr2 = new int[1000];
 
+        // how git works
+
+        // in coditions where we don't know the size of the object using int[] (array) dorsnot make sense
+        // collections ArrayList
         for(int i = 10; i > 0; i--) {
             System.out.println(i);
         }

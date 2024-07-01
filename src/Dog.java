@@ -4,7 +4,7 @@ public class Dog extends Animal{
     private String color = "Black-Brown";
     private int age = 5;
     private boolean isMale = false;
-
+    private int price;
     // constructor helps us in creating instance of an object
 
     // this is default constructor
@@ -18,8 +18,6 @@ public class Dog extends Animal{
         this.breed = breed;
         this.isMale = isMale;
     }
-
-
 
     public Dog(String breed, int age) {
         this.breed = breed;
@@ -47,7 +45,7 @@ public class Dog extends Animal{
 
     // setters will always be public will have void return type but it will take value as argument
 
-
+// GET, POST
     public void setBreed(String breed) {
         this.breed = breed;
     }
