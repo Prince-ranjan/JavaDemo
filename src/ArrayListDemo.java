@@ -18,7 +18,17 @@ public class ArrayListDemo {
 
         arrayList.add(120);
 
+        arrayList.add(120);
+
         arrayList.add(null);
+
+        HashSet<Integer> hashSet = new HashSet<>(arrayList);
+
+        System.out.println(arrayList);
+
+
+        System.out.println(hashSet);
+
 
         Collections.sort(arrayList, Collections.reverseOrder());
 
