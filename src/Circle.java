@@ -1,4 +1,4 @@
-public class Circle implements Shape{
+public class Circle implements Shape, Runnable{
 
     private double radius;
 
@@ -21,4 +21,8 @@ public class Circle implements Shape{
         System.out.println("Printing a circle");
     }
 
+    @Override
+    public void run() {
+
+    }
 }

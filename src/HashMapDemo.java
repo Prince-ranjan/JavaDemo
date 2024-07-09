@@ -8,7 +8,7 @@ public class HashMapDemo {
         hashMap.put(7, "Dhoni");
         hashMap.put(2, "Rohit");
         hashMap.put(18, "Virat");
-
+        hashMap.put(1, "rahul");
 
         ArrayList<String> arrayList = new ArrayList<>(hashMap.values());
 

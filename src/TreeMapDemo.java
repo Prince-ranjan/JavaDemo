@@ -8,7 +8,7 @@ public class TreeMapDemo {
         treeMap.put("Oracle", 143);
         treeMap.put("Nvidia", 1300);
         treeMap.put("Adobe", 435);
-        treeMap.getOrDefault()
+        treeMap.put("Apple", 1000);
         System.out.println(treeMap);
     }
 
