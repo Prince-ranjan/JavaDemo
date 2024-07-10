@@ -8,7 +8,7 @@ public class MyRunnable implements Runnable{
             try {
                 Thread.sleep(2500);
             }
-            catch (Exception e) {
+            catch (InterruptedException e) {
                 System.out.println("Caught an exception");
             }
         }
