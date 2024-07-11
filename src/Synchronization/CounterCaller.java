@@ -19,13 +19,17 @@ public class CounterCaller implements Runnable{
         System.out.println(Thread.currentThread().getName() +" value = " +counter.getValue());
     }
 
-    public static void main(String[] args) {
-        Counter c = new Counter();
+    public static void main(String[] args) throws InterruptedException {
+        Counter c = new Counter(); //value = 0
         CounterCaller cc = new CounterCaller(c);
-        Thread t1 = new Thread(cc);
-        Thread t2 = new Thread(cc);
+        Thread t1 = new Thread(cc); // value = 0
+        Thread t2 = new Thread(cc); // value = 0
 
-        t1.start();
+
+        t1.start(); // value = 5
         t2.start();
+
+//        t2.wait();
+
     }
 }

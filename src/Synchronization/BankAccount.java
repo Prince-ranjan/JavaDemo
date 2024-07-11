@@ -7,7 +7,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public void withdrawal(int amount) {
+    public  synchronized void withdrawal(int amount) {
         if(balance >= amount) {
             balance -= amount;
 
